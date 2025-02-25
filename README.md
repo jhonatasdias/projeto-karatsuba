@@ -55,10 +55,10 @@ print(f"Resultado de {num1} * {num2} = {resultado}")
 ## Relatório Técnico
 ### Complexidade do Algoritmo
 
-| Complexidade | Melhor Caso | Caso Médio | Pior Caso |
-|--------------|-------------|------------|-----------|
-| Temporal     | O(n)        | O(n)       | O(n)      |
-| Espacial     | O(n)        | O(n)       | O(n)      |
+| Complexidade | Melhor Caso | Caso Médio | Pior Caso  |
+|--------------|-------------|------------|------------|
+| Temporal     | O(nlog(n))  | O(nlog(n)) | O(nlog(n)) |
+| Espacial     | O(n^2)      | O(n^2)     | O(n^2)     |
 
 ### Vantagens
 - **Menos operações de multiplicação** comparado ao método tradicional.
